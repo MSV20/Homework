@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Qulix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="http://fe.it-academy.by/Sites/0013145/images/logo.png">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="logo" src="http://fe.it-academy.by/Sites/0013145/images/logo.png">
+            <div>
+                <a href="#" class="city">New York</a>
+                <i class="fa fa-angle-down"></i>
+                <i class="fa fa-bell"></i>
+                <i class="fa fa-envelope"></i>
+
+                <a href="#">User name<img class="userPhoto" src="http://fe.it-academy.by/Sites/0013145/images/userPhoto.jpg"></a>
+                <form action="javascript:void()" onsubmit="if(this.t1.value!=null &amp;&amp; this.t1.value!='')parent.findString(this.t1.value);return false;">
+                    <input type="text" class="toggleMin" id="t1" placeholder="Search ...">
+                </form>
+                <i class="fa fa-search" onclick="slideMin()"></i>
+
+            </div>
+        </div>
+
+        <div class="headerMin">
+            <i class="fa fa-navicon"></i>
+            <img class="logoWhite" src="http://fe.it-academy.by/Sites/0013145/images/logo-white.png">
+            <span>Page title</span>
+            <img class="userPhotoBig" src="http://fe.it-academy.by/Sites/0013145/images/userPhotoBig.jpg">
+            <i class="fa fa-search" onclick="$( '#fa-search' ).trigger( 'click' )"></i>
+
+        </div>
+    </header>
+
+    <div class="nav">
+        <nav class="nav1">
+            <a href="#">Menu item</a>
+            <a href="#">Menu item</a>
+            <a href="#">Menu item</a>
+            <a href="#">Menu item</a>
+            <a href="#">Menu item</a>
+        </nav>
+    </div>
+
+    <nav class="mobileMenu">
+        <ul>
+            <li><a href="#">Menu item</a></li>
+            <li><a href="#">Menu item</a></li>
+            <li><a href="#">Menu item</a></li>
+            <li><a href="#">Menu item</a></li>
+            <li><a href="#">Menu item</a></li>
+            <li><a href="#">Menu item</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <menu>
+            <li><a href="#">Submenu item 7d</a></li>
+            <li><a href="#">Submenu item 5d</a></li>
+            <li class="submenu">Submenu</li>
+            <li><a href="#">Submenu item 7d</a></li>
+            <li><a href="#">Submenu item 2d</a></li>
+            <li><a href="#">Submenu item 4d</a></li>
+            <li><a href="#">More tags</a></li>
+            <li class="submenu">Submenu</li>
+            <li><a href="#">Submenu item 1d</a></li>
+            <li><a href="#">Submenu item 1d</a></li>
+            <li class="submenu">Submenu</li>
+            <li><a href="#">Submenu item 4d</a></li>
+            <li><a href="#">Submenu item 2d</a></li>
+            <li><a href="#">Submenu item1 & Submenu item2 2d</a></li>
+            <li><a href="#">Submenu item 7d</a></li>
+            <li><a href="#">Submenu item 1d</a></li>
+            <li><a href="#">Submenu item 1d</a></li>
+            <li class="submenu">Submenu</li>
+            <li><a href="#">Submenu item 2d</a></li>
+            <li><a href="#">Submenu item 1d</a></li>
+            <li><a href="#">Submenu item 3d</a></li>
+        </menu>
+
+        <div class="content">
+            <h1>Page title in <span>New York </span><i class="fa fa-angle-down"></i></h1>
+
+            <div class="form">
+                <form action="javascript:void()" onsubmit="if(this.t1.value!=null &amp;&amp; this.t1.value!='')parent.findString(this.t1.value);return false;">
+                    <input type="text" id="t1" placeholder="Search ..." >
+                </form>
+                <div class="item">
+                    <span>+ New item</span>
+                    <i class="fas fa-sliders-h"></i>
+
+                </div>
+            </div>
+
+            <div class="formMin">
+                <i class="fa fa-search" id="fa-search" onclick="slide()"></i>
+                <form action="javascript:void()" onsubmit="if(this.t1.value!=null &amp;&amp; this.t1.value!='')parent.findString(this.t1.value);return false;">
+                    <input type="text" class="toggle" id="t1" placeholder="Search ...">
+                </form>
+                <div class="right">
+                    <i class="fa fa-plus"></i>
+                    <i class="fa fa-sliders"></i>
+                </div>
+            </div>
+            <div class="posts">
+            <div class="post">
+                <div class="image"><img src="http://fe.it-academy.by/Sites/0013145/images/photo1.jpg"></div>
+                <div class="postIns">
+                    <span>User name</span>
+                    <span class="member">Pro</span>
+                    <span class="comments"><i class="fa fa-comments"></i><span> 2 </span><i class="fa fa-clock-o"></i> 20m</span>
+                    <p class="title">Item title 1</p>
+                    <p class="text">Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus eleifend lacus sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla faucibus viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia tempus.</p>
+                    <span class="tags"><i class="fa fa-tag"></i> tag1, tag2, tag3</span>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="image"><img src="http://fe.it-academy.by/Sites/0013145/images/photo2.jpg"></div>
+                <div class="postIns">
+                    <span>User name</span>
+                    <span class="member">Member</span>
+                    <span class="comments"><i class="fa fa-comments"></i><span> 2 </span><i class="fa fa-clock-o"></i> 20m</span>
+                    <p class="title">Item title 2</p>
+                    <p class="text">Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus eleifend lacus sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla faucibus viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia tempus.</p>
+                    <span class="tags"><i class="fa fa-tag"></i> tag1, tag2, tag3</span>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="image"><img src="http://fe.it-academy.by/Sites/0013145/images/photo3.jpg"></div>
+                <div class="postIns">
+                    <span>User name</span>
+                    <span class="member">Member</span>
+                    <span class="comments"><i class="fa fa-comments"></i><span> 2 </span><i class="fa fa-clock-o"></i> 20m</span>
+                    <p class="title">Item title 3</p>
+                    <p class="text">Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus eleifend lacus sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla faucibus viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia tempus.</p>
+                    <span class="tags"><i class="fa fa-tag"></i> tag1, tag2, tag3</span>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="image"><img src="http://fe.it-academy.by/Sites/0013145/images/photo4.jpg"></div>
+                <div class="postIns">
+                    <span>User name</span>
+                    <span class="member">Member</span>
+                    <span class="comments"><i class="fa fa-comments"></i><span> 2 </span><i class="fa fa-clock-o"></i> 20m</span>
+                    <p class="title">Item title 2</p>
+                    <p class="text">Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus eleifend lacus sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla faucibus viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia tempus.</p>
+                    <span class="tags"><i class="fa fa-tag"></i> tag1, tag2, tag3</span>
+                </div>
+            </div>
+
+
+            <div class="buttons">
+                <a href="#"><i class="fa fa-angle-left"></i>Previous</a>
+                <a href="#">Next<i class="fa fa-angle-right"></i></a>
+            </div>
+            </div>
+            <div class="footer">
+                <nav class="nav2">
+                    <a href="#">About</a>
+                    <a href="#">Policies</a>
+                    <a href="#">Site map</a>
+                    <a href="#">Help</a>
+                    <a href="#">Contact us</a>
+                </nav>
+
+                <div class="copy">
+                    <img src="images/logo-min.png">
+                    <span>&copy; 2015. Qulix Systems. All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/43159ecf0a.js"></script>
+</body>
+</html>

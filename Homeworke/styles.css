@@ -1,0 +1,681 @@
+body {
+    background-color: #ffffff;
+    min-width: 303px;
+}
+
+header {
+    background-color: #2d313d;
+}
+
+.logo {
+    width: 32px;
+    height: 20px;
+    margin: 18px 0 18px 6px;
+}
+
+.header {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header div {
+    float: right;
+    color: #727989;
+    font: 14px Arial;
+}
+
+.header div a {
+    text-decoration: none;
+    color: #727989;
+}
+
+.header div i {
+    font-size: 18px;
+}
+
+.header div form {
+    display: inline-block;
+    height: 14px;
+}
+
+.header div .toggleMin {
+    display: none;
+    padding-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    -webkit-appearance: none;
+    font: 12px Arial;
+    width: 150px;
+    height: 14px;
+    border: solid #d6d9e1 1px;
+    border-radius: 5px;
+}
+
+.header div .city {
+    border-bottom: dashed 1px;
+    margin: 0 6px 0 22px;
+}
+
+.header div .userPhoto {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    padding: 0 24px 0 10px;
+    border-radius: 4px;
+}
+
+.fa-angle-down, .fa-envelope {
+    padding-right: 32px;
+}
+
+.fa-bell {
+    padding-right: 27px;
+}
+
+.fa-search {
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.nav {
+    background-color: #646d81;
+}
+
+.nav1 {
+    max-width: 960px;
+    margin: 0 auto;
+    font: 14px Arial;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 7px 0 12px;
+    margin-right: 26px;
+    border-top: solid #646d81 5px;
+}
+
+.nav1 a:hover {
+    border-top-color: white;
+    padding-top: 7px;
+    transition-duration: 0.3s;
+}
+
+.mobileMenu {
+    background-color: #2d313d;
+    display: none;
+    position: absolute;
+    width: 150px;
+    z-index: 10000;
+    top: 85px;
+    border: solid black 2px;
+    font: 26px Arial;
+}
+
+.mobileMenu ul {
+    display: none;
+}
+
+.mobileMenu ul li {
+    padding: 3px 10px;
+}
+
+.mobileMenu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mobileMenu ul li a:hover {
+    color: grey;
+}
+
+.main {
+    max-width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 3px 10px #e0e2e6;
+    background-color: white;
+}
+
+.main menu {
+    max-width: 170px;
+    padding-top: 20px;
+    float: left;
+}
+
+.main .submenu {
+    margin-top: 32px;
+    padding: 9px 28px 9px 23px;
+    font: 18px Georgia;
+}
+
+.main .submenu:hover {
+    border-left-color: white;
+}
+
+.main menu li {
+    list-style-type: none;
+    padding: 9px 28px 9px 23px;
+    border-left: solid white 5px;
+}
+
+.main menu li:hover {
+    border-left-color: #99a1b3;
+    transition-duration: 0.3s;
+}
+
+.main menu li a {
+    text-decoration: none;
+    font: 14px Arial;
+    color: #99a1b3;
+}
+.main menu li:hover a {
+    color: black;
+}
+
+.content {
+    margin-left: 170px;
+    border-left: solid #e0e4ed 1px;
+}
+
+.content h1 {
+    padding: 30px 0 20px 30px;
+    font: 30px Georgia;
+}
+
+.content h1 span {
+    margin-left: 28px;
+    border-bottom: dashed 1px;
+}
+
+.form {
+    background-color: #f2f4f8;
+    padding: 5px 30px;
+    color: #99a1b3;
+}
+
+.form input[type="text"] {
+    padding-left: 10px;
+    outline: none;
+    -webkit-appearance: none;
+    font: 14px Arial;
+    width: 280px;
+    height: 40px;
+    border: solid #d6d9e1 1px;
+    border-radius: 5px;
+    display: inline-block;
+    background: url(images/search.png) no-repeat 260px 9px;
+    background-color: white;
+}
+
+.form input::-moz-placeholder {
+    color: #99a1b3;
+}
+
+.form input::-webkit-input-placeholder {
+    color: #99a1b3;
+}
+
+.item {
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 30px;
+}
+
+.item span {
+    margin-right: 86px;
+    font: 12px Georgia;
+}
+
+.item i {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.post {
+    font: 12px Arial;
+    color: #99a1b3;
+    margin: 30px;
+}
+
+.image {
+    width: 60px;
+    float: left;
+    margin-right: 14px;
+}
+
+.postIns {
+    margin-left: 74px;
+}
+
+.member {
+    padding: 5px 15px;
+    background-color: #f2f4f8;
+    border-radius: 5px;
+    margin-left: 26px;
+}
+
+.comments {
+    float: right;
+    margin-right: 28px;
+}
+
+.comments span {
+    margin-right: 10px;
+}
+
+.title {
+    color: #4f9cd4;
+    font: bold 16px Arial;
+    padding: 5px 0 5px;
+}
+
+.text {
+    color: black;
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 86px;
+}
+
+.buttons a:first-child {
+    margin-right: 10px;
+    padding: 10px 18px 10px 13px;
+}
+
+.buttons a:last-child {
+    padding: 10px 13px 10px 18px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    font: 14px Arial;
+    border: solid #99a1b3 1px;
+    border-radius: 4px;
+}
+
+.buttons a .fa-angle-left {
+    padding-right: 12px;
+}
+
+.buttons a .fa-angle-right {
+    padding-left: 12px;
+}
+
+.footer {
+    color: #99a1b3;
+    font: 12px Arial;
+
+}
+
+.nav2 {
+    background-color: #f2f4f8;
+    padding-left: 28px;
+    margin-bottom: 1px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 0;
+    margin-right: 18px;
+    color: #99a1b3;
+}
+
+.copy {
+    background-color: #f2f4f8;
+    padding: 14px 0 14px 28px;
+}
+
+.copy img {
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.headerMin {
+    display: none;
+    color: white;
+    text-align: center;
+}
+
+.headerMin img {
+    position: relative;
+    top: 16px;
+}
+
+.headerMin .logoWhite {
+    margin-left: 35px;
+}
+
+.headerMin i {
+    font-size: 36px;
+    padding: 32px 0;
+}
+
+.headerMin i:hover {
+    color: grey;
+}
+
+.headerMin span {
+    font: 36px Arial;
+    margin: 0 65px 0 50px;
+}
+
+.userPhotoBig {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    margin-right: 45px;
+}
+
+.formMin {
+    display: none;
+    background-color: #f2f4f8;
+    padding: 30px 45px;
+    color: #99a1b3;
+    font-size: 38px;
+}
+
+.formMin form {
+    display: inline-block;
+    height: 28px;
+    position: relative;
+    bottom: 6px;
+}
+
+.toggle {
+    display: none;
+    padding-left: 10px;
+    outline: none;
+    -webkit-appearance: none;
+    font: 14px Arial;
+    width: 280px;
+    height: 28px;
+    border: solid #d6d9e1 1px;
+    border-radius: 5px;
+}
+
+.right {
+    float: right;
+}
+
+.right .fa-sliders {
+    margin-left: 48px;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        margin: 0;
+    }
+
+    .nav1 {
+        margin: 0;
+    }
+
+    .main {
+        margin: 0;
+    }
+
+    .item span {
+        margin-right: 15px;
+    }
+
+    .item i {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .mobileMenu {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        display: none;
+    }
+
+    .headerMin {
+        display: block;
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    .mobileMenu ul {
+        display: block;
+    }
+
+    .main menu {
+        display: none;
+    }
+
+    .content {
+        margin: 0;
+        border: none;
+    }
+
+    .content h1 {
+        font-size: 50px;
+        padding: 50px 75px 40px 85px;
+        text-align: center;
+    }
+
+    .content h1 span {
+        border-bottom: dashed 2px;
+    }
+
+    .fa-angle-down {
+        padding-right: 0;
+    }
+
+    .form {
+        display: none;
+    }
+
+    .formMin {
+        display: block;
+    }
+
+    .post {
+        font-size: 24px;
+        margin: 60px;
+    }
+
+    .image {
+        margin-right: 20px;
+    }
+
+    .postIns {
+        margin-left: 80px;
+    }
+
+    .member {
+        margin-left: 10px;
+    }
+
+    .comments {
+        margin-right: 0;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .text {
+        font-size: 26px;
+    }
+
+    .buttons {
+        margin: 84px 0 89px;
+    }
+
+    .buttons a {
+        font-size: 22px;
+    }
+
+    .buttons a:first-child {
+        padding: 27px 40px 27px 30px;
+    }
+
+    .buttons a:last-child {
+        padding: 27px 30px 27px 40px;
+    }
+
+    .buttons a .fa-angle-left {
+        padding-right: 30px;
+    }
+
+    .buttons a .fa-angle-right {
+        padding-left: 30px;
+    }
+
+    .nav2 {
+        text-align: center;
+        padding: 30px 0;
+        font-size: 18px;
+    }
+
+    .nav2 a {
+        padding: 0;
+    }
+
+    .copy {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .headerMin .fa-navicon {
+        float: left;
+        padding-left: 10px;
+    }
+
+    .headerMin i {
+        font-size: 20px;
+    }
+
+    .headerMin .logoWhite {
+        width: 60px;
+        margin-left: 15px;
+    }
+
+    .headerMin span {
+        font-size: 20px;
+        margin: 0 13px;
+    }
+
+    .headerMin .userPhotoBig {
+        width: 45px;
+        height: 45px;
+        margin-right: 15px;
+    }
+
+    .mobileMenu {
+        top: 75px;
+        font-size: 20px;
+        width: 130px;
+    }
+
+    .mobileMenu ul li {
+        padding: 5px 15px;
+    }
+
+    .content h1 {
+        font-size: 34px;
+        padding: 25px 10px;
+    }
+
+    .content h1 span {
+        margin-left: 0;
+    }
+
+    .formMin {
+        font-size: 28px;
+        padding: 15px 40px;
+    }
+
+    .formMin form {
+        height: 20px;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .toggle {
+        height: 20px;
+        width: 150px;
+    }
+
+
+    .post {
+        font-size: 14px;
+        margin: 30px 20px;
+    }
+
+    .comments {
+        float: none;
+        display: block;
+        padding-top: 5px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .buttons {
+        margin: 60px 0 70px;
+    }
+
+    .buttons a {
+        font-size: 16px;
+    }
+
+    .buttons a:first-child {
+        padding: 17px 30px 17px 20px;
+    }
+
+    .buttons a:last-child {
+        padding: 17px 20px 17px 30px;
+    }
+
+    .buttons a .fa-angle-left {
+        padding-right: 15px;
+    }
+
+    .buttons a .fa-angle-right {
+        padding-left: 15px;
+    }
+
+    .nav2 {
+        text-align: center;
+        padding: 30px 0;
+        font-size: 14px;
+    }
+
+    .nav2 a {
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .formMin {
+        padding: 15px;
+    }
+
+    .right .fa-sliders {
+        margin-left: 10px;
+    }
+}
