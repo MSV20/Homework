@@ -1,0 +1,40 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+}
+
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 10px;
+    height: 10px;
+}
+
+#btn {
+    margin-left: 23px;
+}
+
+.white {
+    background-color: white;
+
+}
+
+.black {
+    background-color: black;
+}
+
+#div3 {
+    border: 0px solid;
+    width: 200px;
+    height: 200px;
+}
